@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mamta Jadhav</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">John Doe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/profile-pic.png" alt="Mamta Jadhav profile picture" />
+      </div>
+       <div class="section__text">
+        <p class="section__text__p1">Hello and thank you for visiting my portfolio website! 😊 </p>
+        <h2 class="title">Mamta Jadhav, CSM®, CSPO®</h2>
+        <p class="section__text__p2">I'm a grad student in Project Management, specializing in Business Analysis.
+
+
+
+
+
+
+        </p>
+        <div class="btn-container">
+
+        <button
+            class="btn btn-color-2"
+            onclick="window.open('https://github.com/MamtaJadhav050/HTML-CSS-Js-Portfolio/blob/main/resume-example.pdf')"
+          >
+            Certifications
+          </button>
+
+        <button
+            class="btn btn-color-2"
+            onclick="window.open('C:\portfolio\html-css-js-portfolio-tutorial-2-main\html-css-js-portfolio\assets\resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+ 
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jadhavmamta/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br /></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MS in Project Management<br />B.Tech in Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>I’m a graduate student in Project Management with a background in Computer Science. I’ve collaborated with diverse teams to manage projects, improve workflows, and deliver impactful solutions. At Language Connections, I streamlined operations through timeline coordination and dashboard creation, while at Bank of America, I focused on software development and system upgrades, ensuring alignment with stakeholder goals and fostering collaboration.</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section id="Skills">
+        <p></p>
+        <p class="section__text__p1"></p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+          <!-- Row 1: Project Management and Business Analysis -->
+          <div class="skills-row">
+            <!-- Project Management Box -->
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Project Management</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Project Management Methodologies</h3>
+                      <ul>
+                        <li>Agile</li>
+                        <li>Waterfall</li>
+                        <li>Hybrid</li>
+                      </ul>
+                    </div>
+                  </article>
+      
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Project Management Tools</h3>
+                      <ul>
+                        <li>Microsoft Project</li>
+                        <li>JIRA</li>
+                        <li>Confluence</li>
+                        <li>Visio</li>
+                      </ul>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Business Analysis Box -->
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Business Analysis</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Business Analysis Documents</h3>
+                      <ul>
+                        <li>BRD (Business Requirements Document)</li>
+                        <li>FRD (Functional Requirements Document)</li>
+                        <li>SRS (Software Requirements Specification)</li>
+                        <li>Use Cases</li>
+                        <li>User Acceptance Testing (UAT)</li>
+                      </ul>
+                    </div>
+                  </article>
+      
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Business Analysis Techniques</h3>
+                      <ul>
+                        <li>GAP Analysis</li>
+                        <li>Cost-Benefit Analysis</li>
+                        <li>Risk Analysis</li>
+                        <li>SWOT Analysis</li>
+                      </ul>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Row 2: Agile and IT Skills -->
+          <div class="skills-row">
+            <!-- Agile Box -->
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Agile</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Agile Management</h3>
+                      <ul>
+                        <li>Scrum</li>
+                        <li>Kanban</li>
+                        <li>Sprint Planning</li>
+                        <li>Standups</li>
+                        <li>Reviews</li>
+                        <li>Retrospectives</li>
+                      </ul>
+                    </div>
+                  </article>
+      
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Backlog Management & Metrics</h3>
+                      <ul>
+                        <li>Backlog Grooming</li>
+                        <li>Backlog Prioritization</li>
+                        <li>Stakeholder Collaboration</li>
+                        <li>Velocity</li>
+                        <li>Burnup chart</li>
+                        <li>Burndown chart</li>
+                      </ul>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Technical IT Skills Box -->
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Technical IT Skills</h2>
+                <div class="article-container">
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Programming Languages</h3>
+                      <ul>
+                        <li>Python</li>
+                        <li>R</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                      </ul>
+                    </div>
+                  </article>
+      
+                  <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                      <h3>Data Analytics & Visualization</h3>
+                      <ul>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>IBM Cognos Analytics</li>
+                        <li>Minitab</li>
+                      </ul>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mamtajadhav050@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/jadhavmamta/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
